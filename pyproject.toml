@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ada-doc-check"
+version = "0.1.0"
+description = "ADA/WCAG-ish document accessibility first-pass triage (prepare-only)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "the1truedan / M.A.N.A.G.E.R. LLC" }]
+keywords = [
+  "accessibility",
+  "wcag",
+  "section-508",
+  "ada-compliance",
+  "pdf",
+  "ocr",
+  "document-processing",
+  "python",
+  "self-hosted",
+  "cli",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+pdf = ["pypdf>=4.0"]
+
+[project.scripts]
+ada-doc-check = "ada_check.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ada_check*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

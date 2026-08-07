@@ -1,0 +1,5 @@
+This is a synthetic accessible sample document for ada-doc-check.
+
+It has enough characters for a basic text-layer triage pass and no protected
+health information. Use it in CI and local demos only. Padding follows so the
+default min_chars=200 threshold is satisfied for offline demos and smoke tests.
