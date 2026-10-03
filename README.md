@@ -64,8 +64,11 @@ print(accessibility_gate(path="notes.txt"))
 
 Gateway stack (optional): [ai-gateway](https://github.com/the1truedan/ai-gateway) · [grok-tua-tok-tua](https://github.com/the1truedan/grok-tua-tok-tua)
 
-<!-- manager-footer:start -->
 ---
 
-<p align="center">© 2026 M.A.N.A.G.E.R. LLC — prepare for the care when we cannot be there · <a href="https://linktr.ee/the1truedan">Linktree</a> · <a href="https://ko-fi.com/the1truedan">Ko-fi</a></p>
-<!-- manager-footer:end -->
+<p align="left">
+  <a href="https://linktr.ee/the1truedan"><img src="https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree"></a>
+  <a href="https://ko-fi.com/the1truedan"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
+</p>
+
+**© 2026 M.A.N.A.G.E.R. LLC** — *prepare for the care when we cannot be there*
