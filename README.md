@@ -63,3 +63,9 @@ print(accessibility_gate(path="notes.txt"))
 - Scoring is a **heuristic first pass**, not legal compliance
 
 Gateway stack (optional): [ai-gateway](https://github.com/the1truedan/ai-gateway) · [grok-tua-tok-tua](https://github.com/the1truedan/grok-tua-tok-tua)
+
+<!-- manager-footer:start -->
+---
+
+<p align="center">© 2026 M.A.N.A.G.E.R. LLC — prepare for the care when we cannot be there · <a href="https://linktr.ee/the1truedan">Linktree</a> · <a href="https://ko-fi.com/the1truedan">Ko-fi</a></p>
+<!-- manager-footer:end -->
